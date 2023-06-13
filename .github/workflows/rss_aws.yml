@@ -15,7 +15,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/apigateway-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -28,7 +28,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/cloudwatch-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -41,7 +41,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/dynamodb-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -54,7 +54,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/ecr-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -67,7 +67,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/eks-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -80,7 +80,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/events-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -93,7 +93,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/guardduty-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -106,7 +106,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/sns-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -119,7 +119,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/sqs-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -132,7 +132,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/s3-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -145,7 +145,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/vpc-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -158,7 +158,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/certificatemanager-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -171,7 +171,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/cloudformation-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -184,7 +184,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/cloudtrail-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -197,7 +197,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/lambda-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -210,7 +210,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/secretsmanager-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -223,7 +223,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/imagebuilder-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -236,7 +236,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/route53privatedns-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"
@@ -249,7 +249,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://status.aws.amazon.com/rss/resourcegroupstaggingapi-eu-west-1.rss"
         prefix: "[AWS]"
         dry-run: "false"

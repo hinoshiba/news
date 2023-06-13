@@ -13,7 +13,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.cisa.gov/uscert/ncas/alerts.xml"
           prefix: "[CISA]"
           dry-run: "false"
@@ -26,7 +26,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://feeds.feedburner.com/OfficeOfInadequateSecurity"
           prefix: "[DataBreaches]"
           dry-run: "false"
@@ -39,7 +39,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://www.darkreading.com/rss/all.xml"
           prefix: "[DarkReading]"
           dry-run: "false"
@@ -52,7 +52,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://seclists.org/rss/fulldisclosure.rss"
           prefix: "[FullDisclosure]"
           dry-run: "false"
@@ -65,7 +65,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://blogs.technet.com/msrc/rss.xml"
           prefix: "[MicrosoftSecurityResponseCenter]"
           dry-run: "false"
@@ -78,7 +78,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.ncsc.gov.uk/feeds/guidance.xml"
           prefix: "[NCSCGuidanceFeed]"
           dry-run: "false"
@@ -91,7 +91,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
           prefix: "[NCSCthreats]"
           dry-run: "false"
@@ -104,7 +104,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://blogs.technet.com/mmpc/rss.xml"
           prefix: "[MicrosoftSecurity]"
           dry-run: "false"
@@ -117,7 +117,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://seclists.org/rss/bugtraq.rss"
           prefix: "[Bugtraq]"
           dry-run: "false"
@@ -130,7 +130,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches"
           prefix: "[HIBP]"
           dry-run: "false"
@@ -143,7 +143,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "http://www.netresec.com/rss.ashx"
           prefix: "[NETRESEC]"
           dry-run: "false"
@@ -156,7 +156,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://krebsonsecurity.com/feed/"
           prefix: "[BrianKrebs]"
           dry-run: "false"
@@ -169,7 +169,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://grahamcluley.com/feed/"
           prefix: "[GrahamCluley]"
           dry-run: "false"
@@ -182,7 +182,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://feeds.feedburner.com/TroyHunt"
           prefix: "[TroyHunt]"
           dry-run: "false"
@@ -195,7 +195,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://feeds.feedburner.com/TheHackersNews"
           prefix: "[HackerNews]"
           dry-run: "false"
@@ -208,7 +208,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://feeds.feedburner.com/securityweek"
           prefix: "[SecurityWeek]"
           dry-run: "false"
@@ -221,7 +221,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.theregister.com/security/headlines.atom"
           prefix: "[RegisterSec]"
           dry-run: "false"
@@ -234,7 +234,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.theregister.com/software/headlines.atom"
           prefix: "[RegisterSoftware]"
           dry-run: "false"
@@ -247,7 +247,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://www.bleepingcomputer.com/feed/"
           prefix: "[BleepingComputer]"
           dry-run: "false"
@@ -260,7 +260,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://scotthelme.co.uk/rss/"
           prefix: "[ScottHelme]"
           dry-run: "false"
@@ -273,7 +273,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://blog.cloudflare.com/"
           prefix: "[CloudFlare]"
           dry-run: "false"
@@ -286,7 +286,7 @@ jobs:
       - uses: guilhem/rss-issues-action@0.5.2
         continue-on-error: true
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.REPO_TOKEN}}
           feed: "https://wwww.politico.com/rss/morningcybersecruity.xml"
           prefix: "[PoliticCyber]"
           dry-run: "false"

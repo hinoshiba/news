@@ -13,7 +13,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://1password.statuspage.io/history.atom"
         prefix: "[1Password]"
         dry-run: "false"
@@ -25,7 +25,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://www.githubstatus.com/history.rss"
         prefix: "[GitHub]"
         dry-run: "false"
@@ -37,7 +37,7 @@ jobs:
     - uses: guilhem/rss-issues-action@0.5.2
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.REPO_TOKEN }}
         feed: "https://www.cloudflarestatus.com/history.atom"
         prefix: "[CloudFlare]"
         dry-run: "false"
